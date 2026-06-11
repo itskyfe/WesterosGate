@@ -25,5 +25,3 @@ Tema: **Universe George R.R. Martin** (Game of Thrones, House of the Dragon, A K
 - **Edit Artikel** — Preview gambar existing + ganti gambar
 - **Hapus Artikel** — Konfirmasi + hapus file gambar otomatis
 - **Flash Messages** — Notifikasi sukses/error
-
----| Theme        | Dark fantasy medieval GoT          |
