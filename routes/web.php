@@ -21,6 +21,9 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::get('/dashboard', [AuthController::class, 'dashboard'])->name('dashboard');
         Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
+        Route::get('/password', [AuthController::class, 'showPasswordForm'])->name('password.edit');
+        Route::post('/password', [AuthController::class, 'updatePassword'])->name('password.update');
+
         // Article CRUD
         Route::resource('articles', ArticleController::class);
     });
